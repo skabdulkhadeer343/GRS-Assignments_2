@@ -11,7 +11,7 @@ server_a1: MT25086_Part_A1_Server.c $(DEPS)
 	$(CC) $(CFLAGS) -o MT25086_Part_A1_Server MT25086_Part_A1_Server.c
 
 client_a1: MT25086_Part_A1_Client.c $(DEPS)
-	$(CC) $(CFLAGS) -o MT25086_Part_A1_Client MT25086_Part_A1_Client.c
+	$(CC) $(CFLAGS) -o MT25086_Part_A_Client MT25086_Part_A_Client.c
 
 server_a2: MT25086_Part_A2_Server.c $(DEPS)
 	$(CC) $(CFLAGS) -o MT25086_Part_A2_Server MT25086_Part_A2_Server.c
@@ -20,4 +20,4 @@ server_a3: MT25086_Part_A3_Server.c $(DEPS)
 	$(CC) $(CFLAGS) -o MT25086_Part_A3_Server MT25086_Part_A3_Server.c
 
 clean:
-	rm -f MT25086_Part_A1_Server MT25086_Part_A1_Client MT25086_Part_A2_Server MT25086_Part_A3_Server
+	rm -f MT25086_Part_A1_Server MT25086_Part_A_Client MT25086_Part_A2_Server MT25086_Part_A3_Server
